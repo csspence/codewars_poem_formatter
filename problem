@@ -15,6 +15,6 @@ Try to solve this challenge with the str.split() and the str.join() string metho
 Every sentence will end with a period, and every new sentence will have one space before the previous period. Be careful about trailing whitespace in your solution.
 */
 
-function formatPoem(poem) {
-  //your code here
+const formatPoem = (poem) => {
+  return poem.split(". ").join(".\n");
 }
